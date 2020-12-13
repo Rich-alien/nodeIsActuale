@@ -1,17 +1,24 @@
 main {
-  max-width: 100%;
-  width: 1000px;
-  padding: 20px 20px 0 20px;
-  margin: auto;
+    max-width: 100%;
+    width: 1000px;
+    padding: 20px 20px 0 20px;
+    margin: auto;
 }
 
 nav ul {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 nav ul li {
-  list-style: none;
-  margin-right: 1rem;
-  font-size: 1.8rem;
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+
+.li-border {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
