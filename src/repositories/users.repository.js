@@ -9,6 +9,14 @@ const usersRepository = {
     async getAll() {
         return await readJsonFile(FILE_PATH) || [];
     },
+    async getSpecName(){
+        const users =  await  readJsonFile(FILE_PATH) || [];
+        let specialnosti = new Map();
+        users.forEach((user)=>{
+            specialnosti.set(user.group.specialnost.spec_name,user.group.specialnost.spec_name);
+        })
+        return specialnosti;
+    },
 
     async get(id) {
         const users = await this.getAll();
