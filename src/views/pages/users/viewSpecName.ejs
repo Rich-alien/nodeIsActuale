@@ -1,0 +1,21 @@
+<%- include('../../fragments/header.ejs'); %>
+<%- include('./menu.ejs'); %>
+
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>Специальности</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% specials.forEach(special => { %>
+            <tr>
+                <td><%= special %></td>
+            </tr>
+        <% }); %>
+        </tbody>
+    </table>
+</div>
+
+<%- include('../../fragments/footer.ejs'); %>
