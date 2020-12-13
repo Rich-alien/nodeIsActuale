@@ -1,0 +1,78 @@
+[
+  {
+    "id": "27b1bc40-3cec-11eb-afb1-731dcb4735f5",
+    "group": {
+      "specialnost": {
+        "groupList": "Std",
+        "spec_code": "120",
+        "spec_name": "прикладная математика и информатика",
+        "spec_name_short": "ПМИп"
+      },
+      "group_code": "ПМИП-1702б"
+    },
+    "courseList": "2",
+    "f": "Фамилие1",
+    "i": "Имя1",
+    "o": "Отчество1",
+    "pass_ser": 3443256,
+    "pass_num": 234,
+    "born_data": "34.06.1999"
+  },
+  {
+    "id": "27b1bc40-3cec-11eb-afb1-731dcb4735f8",
+    "group": {
+      "specialnost": {
+        "groupList": "Sta",
+        "spec_code": "121",
+        "spec_name": "прикладная информатика",
+        "spec_name_short": "ПИ"
+      },
+      "group_code": "ПИ-1702a"
+    },
+    "courseList": "2",
+    "f": "Фамилие2",
+    "i": "Имя2",
+    "o": "Отчество2",
+    "pass_ser": 3443256,
+    "pass_num": 234,
+    "born_data": "34.06.1999"
+  },
+  {
+    "id": "27b1bc40-3cec-11eb-afb1-731dcb4735f9",
+    "group": {
+      "specialnost": {
+        "groupList": "Stf",
+        "spec_code": "123",
+        "spec_name": "мобильное обеспечение программ",
+        "spec_name_short": "МОП"
+      },
+      "group_code": "МОП-1702a"
+    },
+    "courseList": "2",
+    "f": "Фамилие3",
+    "i": "Имя3",
+    "o": "Отчество3",
+    "pass_ser": 3443256,
+    "pass_num": 234,
+    "born_data": "34.06.1999"
+  },
+  {
+    "id": "27b1bc40-3cec-11eb-afb1-731dcb4735f9",
+    "group": {
+      "specialnost": {
+        "groupList": "Stf",
+        "spec_code": "123",
+        "spec_name": "мобильное обеспечение программ",
+        "spec_name_short": "МОП"
+      },
+      "group_code": "МОП-1702б"
+    },
+    "courseList": "2",
+    "f": "Фамилие4",
+    "i": "Имя4",
+    "o": "Отчество4",
+    "pass_ser": 3443256,
+    "pass_num": 234,
+    "born_data": "34.06.1999"
+  }
+]
