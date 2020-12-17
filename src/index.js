@@ -3,7 +3,7 @@ const path = require('path');
 const requestLogger = require('../../little_node/src/middlewares/request-logger.middleware');
 const controllers = require('./controllers');
 
-const PORT = 3002;
+const PORT = 3005;
 
 const server = express()
 

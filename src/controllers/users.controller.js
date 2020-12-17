@@ -12,8 +12,8 @@ router.get('/specName', async (_request, response) => {
     response.render('pages/users/viewSpecName', { specials });
 });
 router.get('/showGroup', async (_request, response) => {
-    const users = await usersRepository.getSpecName();
-    response.render('pages/users/showGroup', { users });
+    const specials = await usersRepository.getSpecName();
+    response.render('pages/users/showGroup', { specials });
 });
 
 

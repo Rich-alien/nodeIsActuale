@@ -4,12 +4,16 @@ main {
     padding: 20px 20px 0 20px;
     margin: auto;
 }
-
+.spec{
+    cursor: pointer;
+}
 nav ul {
     display: flex;
     flex-direction: row;
 }
-
+.answer{
+    display: none;
+}
 nav ul li {
     list-style: none;
     margin-right: 1rem;
